@@ -100,6 +100,18 @@ public class SlingshotBand : MonoBehaviour
 
         birdBody.isKinematic = false;
         birdBody.linearVelocity = velocity;
+        
+        Bird birdScript = bird.transform.GetComponent<Bird>();
+        if (birdScript != null)
+        {
+            birdScript.Launched();
+        }
+        
+        if (GameManager.Instance != null)
+        {
+            //GameManager.Instance.OnBirdLaunched();
+        }
+        
 
         launchedBirdCollider = bird.transform.GetComponent<Collider>();
         if (launchedBirdCollider != null)

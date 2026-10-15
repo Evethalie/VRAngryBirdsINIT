@@ -44,10 +44,10 @@ public class Pig : MonoBehaviour
             Instantiate(deathEffectPrefab, transform.position, Quaternion.identity);
         }
 
-        /*if (GameManager.Instance != null)
+        if (GameManager.Instance != null)
         {
             GameManager.Instance.OnPigDied();
-        }*/
+        }
 
         Destroy(gameObject);
     }

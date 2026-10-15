@@ -192,6 +192,7 @@ GameObject:
   - component: {fileID: 1344229652903499095}
   - component: {fileID: 8260693038548695808}
   - component: {fileID: 2195793754544328444}
+  - component: {fileID: 1257715079552680523}
   m_Layer: 0
   m_Name: Blue
   m_TagString: Bird
@@ -384,6 +385,7 @@ MonoBehaviour:
   m_ThrowVelocityScale: 1.5
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
+  m_UnparentTransformOnGrab: 1
   m_RetainTransformParent: 1
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
@@ -393,3 +395,18 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!114 &1257715079552680523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8306421409877441206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c94b742d10dd44dcb3c37d8c3479abd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SplitBird
+  splitPrefab: {fileID: 0}
+  splitCount: 3
+  spreadAngle: 15

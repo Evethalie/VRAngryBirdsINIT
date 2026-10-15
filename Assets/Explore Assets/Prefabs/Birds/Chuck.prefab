@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4956597085635046687}
   - component: {fileID: 1265682605113539215}
   - component: {fileID: 1305974439122775068}
+  - component: {fileID: 5955429508373360173}
   m_Layer: 0
   m_Name: Chuck
   m_TagString: Bird
@@ -204,6 +205,7 @@ MonoBehaviour:
   m_ThrowVelocityScale: 1.5
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
+  m_UnparentTransformOnGrab: 1
   m_RetainTransformParent: 1
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
@@ -213,6 +215,20 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!114 &5955429508373360173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286411736459767090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 200699f00f164429e952da13da45d40c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpeedBird
+  dashSpeed: 30
+  dashEffect: {fileID: 0}
 --- !u!1 &5248113187872831929
 GameObject:
   m_ObjectHideFlags: 0
